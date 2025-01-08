@@ -18,6 +18,10 @@
 
 
 /* shared Class */
+.text-align-center {
+    text-align: center;
+    padding: 20px 0;
+}
 .secondary_bg {
     background: #FFF8F3;
 }
@@ -136,7 +140,7 @@ nav ul li a {
     text-align: center;
 
 }
-.skill_wraper {
+.skill_wrapper {
     display: flex;
     gap:20px;
     justify-content: space-between;
@@ -154,4 +158,55 @@ nav ul li a {
 }
 .skill_icon,.skill_name,.skill_description {
     padding-bottom: 10px;
+}
+
+/* Summary Section */
+
+
+.summary {
+    width: 1000px;
+    margin: 100px auto;
+}
+.summary_wrapper {
+    display: flex;
+    gap: 30px;
+}
+.eduex_title {
+    padding: 20px 0;
+}
+.eduex_item h4,h5,p {
+    margin-bottom: 10px;
+}
+
+.summary hr {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+/* Footer area */
+footer {
+    background: #FFF8F3;
+}
+.footer_wrapper {
+    width: 1000px;
+    display: flex;
+    margin: 50px auto;
+    padding: 100px 0;
+    gap:50px;
+}
+.footer_item {
+    width: 50%;
+}
+
+.footer_item input[type="text"] , input[type="email"] ,textarea{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+.footer_wrapper h3 {
+    margin-bottom: 20px;
 }
