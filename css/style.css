@@ -114,7 +114,7 @@ nav ul li a {
 /* About me section */
 
 .about {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 100px auto;
     text-align: center;
     padding: 80px 100px;
@@ -124,4 +124,34 @@ nav ul li a {
     display: flex;
     justify-content: space-evenly;
    
+}
+
+/* Skill section  */
+
+.skill_section {
+    width: 1000px;
+    margin: 100px auto;
+}
+.skill_section .skill_content {
+    text-align: center;
+
+}
+.skill_wraper {
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.skill {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+    
+}
+.skill:hover {
+    box-shadow: 0 6px 50px rgba(0, 0, 0, 0.193);
+}
+.skill_icon,.skill_name,.skill_description {
+    padding-bottom: 10px;
 }
